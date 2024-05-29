@@ -19,6 +19,14 @@ body {
     background-size: cover;
 }
 
+.body-meals {
+    background-image: url('images/background-02-port.png');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 /*=============== HOME PAGE ===============*/
 
 #home-logo-img {
@@ -52,4 +60,38 @@ body {
     margin: auto;
     margin-bottom: 10px;
     width: 80%;
+}
+
+/*=============== MEALS PAGE ===============*/
+
+/*======= MEALS LIST =======*/
+
+.meals-list a {
+    text-decoration: none;
+}
+
+.meals-list-item {
+    border: 5px solid #1a1a1a;
+    margin: 10px;
+}
+
+.meals-list-item h1 {
+    font-weight: bold;
+    font-size: 20px;
+    color: #1a1a1a;
+    padding-left: 10px;
+}
+
+.meals-list-item p {
+    font-size: 15px;
+    font-style: italic;
+    color: #4d4d4d;
+    margin-top: -7px;
+    padding-left: 10px;
+}
+
+.meals-list-item i {
+    float: right;
+    color: #1a1a1a;
+    padding-right: 10px;
 }
