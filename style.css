@@ -102,7 +102,7 @@ body {
 
 /*=============== HEADER ===============*/
 
-.header{
+.header {
     background-color: #2196f3;
 
     width: 100%;
@@ -121,13 +121,68 @@ body {
     color: white;
 }
 
-.header img{
+.header img {
     width: 150px;
     padding-top: 14px;
     padding-right: 25px;
 }
 
-/*=============== MEALS PAGE ===============*/
+/*=============== RECIPE PAGE ===============*/
+
+#recipe {
+    padding-top: 50px;
+}
 
 /*======= RECIPE DETAILS =======*/
+
+.recipe-details img {
+    width: 100%;
+}
+
+.recipe-details h1 {
+    font-size: 25px;
+    text-align: center;
+    border: 5px solid #1a1a1a;
+    margin: 10px;
+    padding: 5px;
+}
+
+.recipe-details-info {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.recipe-details-info p {
+    font-size: 13px;
+    display: inline-block;
+}
+
+.recipe-details-ingredients h2 {
+    font-size: 20px;
+    text-align: left;
+    margin: 0;
+    margin-left: 10px;
+}
+
+.recipe-details-ingredients label {
+    line-height: 25px;
+    margin-left: 10px;
+}
+
+.recipe-details-steps h2 {
+    font-size: 20px;
+    text-align: left;
+    margin: 0;
+    margin-left: 10px;
+}
+
+.recipe-details-steps {
+    padding-top: 20px;
+}
+
+.recipe-details-steps ol {
+    padding-left: 28px;
+}
+
+
 
